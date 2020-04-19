@@ -1,0 +1,80 @@
+body,
+button,
+input {
+    margin: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 72px 140px 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 72px;
+}
+
+#controls {
+    display: inline-block;
+    width: 50%;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    padding-bottom: 42px;
+    padding-right: 42px;
+}
+
+label {
+    display: inline-block;
+    width: 24%;
+    font-weight: 200;
+    font-size: 30px;
+    padding: 12px;
+}
+
+input {
+    width: 60%;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-left: 6px;
+    font-weight: 200;
+    outline: none;
+}
+
+input:disabled {
+    background-color: white;
+    opacity: 0.6;
+}
+
+button {
+    padding: 12px 62px;
+    background-color: blueviolet;
+    color: black;
+    display: inline-block;
+    border: solid 3px;
+    border-radius: 14px;
+    border-color: black;
+}
+
+button:hover {
+    opacity: 0.9;
+    padding: 12px 62px;
+    background-color: black;
+    color: blueviolet;
+    display: inline-block;
+    border: solid 3px;
+    border-radius: 14px;
+    border-color: blueviolet;
+}
+
+button:disabled {
+    opacity: 0.6;
+}
+
+h2 {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 200;
+    font-size: 100px;
+    margin: 12px 0;
+    padding-left: 100px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>StopClock</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>Clockworks</h1>
+
+    <section id="controls">
+        <div class="input-group">
+            <label for="minutes-input">Minutes</label>&nbsp;
+            <input type="number" id="minutes-input" placeholder="0" max="300" min="0">
+        </div>
+
+        <div class="input-group">
+            <label for="seconds-input">Seconds</label>&nbsp;
+            <input type="number" id="seconds-input" placeholder="0" max="59" min="0" step="5">
+        </div>
+
+        <button id="start-button" onclick="startTimer();">Start</button>
+        <button id="stop-button" onclick="stopTimer();" disabled>Stop</button>
+        <button id="pause-button" onclick="pauseTimer();" disabled>Pause</button>
+
+    </section>
+    <h2> <span id="minutes">0</span>M : <span id="seconds">00</span>S </h2>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
